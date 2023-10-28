@@ -1,0 +1,120 @@
+.main{
+    padding: 20px;
+    background-image : url("https://firebasestorage.googleapis.com/v0/b/nosql-69b12.appspot.com/o/heart-shape-stethoscope-medical-subjects%20(4).jpg?alt=media&token=a2b002cc-1944-4826-94e1-a266dcc700ff&_gl=1*1wnu6gv*_ga*Njg4NDcwNjU1LjE2OTY1MDQ3OTY.*_ga_CW55HF8NVT*MTY5Nzg3ODk4Ni40LjEuMTY5Nzg3OTY3MC41My4wLjA.");
+    background-color: black;
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.role{
+    color: white;
+    font-size: 14px;
+    margin-top:-20px ;
+    text-align: center;
+}
+.sidebar{
+    background-color: rgb(233, 6, 6);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    
+    padding: 10px;
+    
+    
+}
+ .content{
+    width: 100%;
+    height: 100%;
+    
+ }
+.header{
+    background-color: rgb(255, 212, 212);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 82vh;
+    width: 100%;
+    padding: 15px;
+    padding-left: 40px;
+    overflow-x: scroll !important;
+    
+}
+
+
+.menu{
+    margin-top: 60px;
+    padding: 0 10px;
+}
+
+.menu-item{
+    margin-top: 15px;
+}
+
+.menu-item a{
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 18px;
+    align-self: center;
+    font-family: sans-serif;
+    font: bold;
+}
+.menu-item i{
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    margin:0 15px;
+}
+
+.active-menu-item{
+    color: white;
+    background-color: #f97f7f;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0.2px rgb(199, 88, 88);
+  
+}
+
+.header-action-icon{
+    font-size: 30px;
+    color: black !important;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.ant-scroll-number-only-unit{
+     padding-right: -10px !important;
+     padding-bottom: -10px !important;
+}
+
+@media screen and (max-width: 768px){
+  
+    .menu{
+        padding: 0 5px;
+    }
+    
+}
+
+
+.ant-row h1{
+    color:#ff0000e1
+}
+
